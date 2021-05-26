@@ -1,0 +1,281 @@
+body{
+    background-color: rgb(19, 18, 18);
+    color: white;
+}
+
+.footer{
+    background-color: #2a3d66;
+    height: 9rem;
+    margin-top: 10rem;
+}
+
+.footer-content-cont{
+    padding-top: 2rem;
+}
+
+.navbar{
+    background-color: #2a3d66 !important;
+}
+
+
+.navbar-brand{
+    font-family: 'Orbitron', sans-serif;
+    font-weight: bold;
+    font-size: 1.5rem;
+    letter-spacing: 0.2rem;
+}
+
+
+
+.user-home-cont1{
+    margin-top: 3rem;
+    height: 35rem;
+}
+
+
+
+.poster-img{
+    background-image: url("https://picsum.photos/id/1033/1300/500");
+    opacity: 0.5;
+    height: 500px;
+}
+
+.poster-img2{
+    background-image: url("https://picsum.photos/id/227/1300/500");
+    opacity: 0.5;
+    height: 500px;
+}
+
+.img-text{
+    color: rgb(145, 247, 11);
+    position: relative;
+    bottom: 26rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.cont1-h1{
+    font-family: 'Orbitron', sans-serif;
+    font-size: 8rem;
+    font-weight: bold;
+}
+
+.cont1-h5{
+    color: white;
+    font-weight: bold;
+}
+
+.cont1-h4{
+    color: yellow;
+    font-weight: bold;
+    font-size: 2.5rem;
+}
+
+.user-home-cont2{
+    margin-top: 3rem;
+    height: 35rem;
+}
+
+.cont2-h4{
+    margin-top: 3rem;
+}
+
+.cont2-p{
+    margin-top: 12rem;
+}
+
+.card{
+    background-color: green;
+    color: white;
+    margin-left: 1.5rem;
+    border-radius: 2rem;
+}
+
+.gallery-cont{
+    margin-top: 10px;
+}
+
+hr{
+    background-color: white;
+}
+
+.col{
+    margin-top: 2rem;
+}
+
+.journey-cont{
+    font-family: 'Times New Roman', Times, serif;
+    
+}
+
+
+
+.cont1-h1::before { 
+    content: "Welcome"; 
+    animation: animate 3s; 
+    padding-left: 10px; 
+} 
+
+
+@keyframes animate { 
+
+    0% { 
+        content: "W"; 
+    } 
+
+    10% {
+        content: "We";
+    }
+
+    20% {
+        content: "Wel";
+    }
+
+    30% {
+        content: "Welc";
+    }
+
+    40%{
+        content: "Welco"
+    }
+
+
+    50% { 
+        content: "Welcom"; 
+    } 
+
+    75% { 
+        content: "Welcome"; 
+    } 
+
+    100% {
+        content: "Welcome";
+    }
+} 
+
+
+.view-book-cont{
+    margin-top: 3rem;
+}
+
+.view-book-row{
+   margin-left: 0;
+   margin-right: 0;
+}
+
+.fa-arrow{
+    font-size: 10rem;
+    transform: scale(4, .3);
+}
+
+.price-tag{
+    font-size: 2rem;
+}
+
+.book-seats-form{
+    padding: 2rem;
+    border-style: double;   
+}
+
+.edit-details-form{
+    padding: 2rem;
+    border-style: double; 
+    height: 20rem;
+    width: 40rem;
+}
+
+.carousel{
+    margin-top: 3rem;
+}
+
+.user-acc-cont{
+    margin-top: 3rem;
+}
+
+.profile-col{
+    padding: 2rem;
+}
+
+.profile-pic{
+    border-radius: 50%;
+}
+
+.down-icon{
+    font-size: 2rem;
+    color:#2a3d66;
+}
+
+.d-cont{
+    margin-top: 3rem;
+    margin-bottom: 0;
+}
+
+.no-of-seats-icon{
+    font-size: 1rem;
+}
+
+.price-tag-1{
+    font-size: 1rem;
+}
+
+/*
+#booked-success{
+    display: none;
+}
+
+#cancelled-success{
+    display: none;
+}*/
+
+.edit-profile-btn{
+    background-color: #2a3d66;
+    border: none;
+}
+
+
+.edit-profile-cont{
+    margin-top: 3rem;
+}
+
+.journey-completed-badge{
+    font-size: 1rem;
+}
+
+.filter-cont{
+    margin-left: 5px;
+    text-align: right;
+}
+
+.carousel-item{
+    opacity: 0.5;
+}
+
+
+/* media queries */
+
+@media only screen and (max-width: 992px) {
+    .cont1-h1{
+        font-size: 6rem;
+    }
+    .cont2-p{
+        margin-top: 8rem;
+    }
+  }
+
+  @media only screen and (max-width: 768px) {
+    .cont1-h1{
+        font-size: 6rem;
+    }
+    .cont2-p{
+        margin-top: 8rem;
+    }
+  }
+
+
+@media only screen and (max-width: 576px) {
+    .cont1-h1{
+        font-size: 5rem;
+    }
+    .cont2-p{
+        margin-top: 6rem;
+    }
+  }
